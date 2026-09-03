@@ -1,0 +1,2687 @@
+const trains = {
+
+    //臨時列車情報
+
+"9361D":{
+        type:"キハ200-101 くまモンアドベンチャー号ラッピング",
+        images:[
+            "200-101_kumamoto_DC.webp",
+        ],
+        timetable:[
+        {station:"普通", time:"くまモンアドベンチャー号"},
+        {station:"　　", time:"７/４のみ運転"},
+        {station:"   ", time:"          "},
+        {station:"熊本", time:"14:38"},
+        {station:"熊本操車場", time:"レ"},
+        {station:"西熊本", time:"14:43"},
+        {station:"川尻信号場", time:"レ"},
+        {station:"川尻", time:"14:46"},
+        {station:"富合", time:"14:50"},
+        {station:"宇土", time:"14:53"},
+        {station:"松橋", time:"14:59"},
+        {station:"小川", time:"15:05"},
+        {station:"有佐", time:"15:10"},
+        {station:"千丁", time:"15:15"},
+        {station:"新八代", time:"15:19"},
+        {station:"八代", time:"15:23"}
+    ],
+},
+
+
+    "9362D":{
+        type:"キハ200-101 くまモンアドベンチャー号ラッピング",
+        images:[
+            "200-101_kumamoto_DC.webp",
+        ],
+        timetable:[
+        {station:"普通", time:"くまモンアドベンチャー号"},
+        {station:"  ", time:"7/4のみ運転"},
+        {station:"  ", time:"          "},
+        {station:"八代", time:"15:50"},
+        {station:"新八代", time:"15:54"},
+        {station:"千丁", time:"15:58"},
+        {station:"有佐", time:"16:03"},
+        {station:"小川", time:"16:03"},
+        {station:"松橋", time:"16:14"},
+        {station:"宇土", time:"16:20"},
+        {station:"富合", time:"16:24"},
+        {station:"川尻", time:"16:29"},
+        {station:"川尻信号場", time:"レ"},
+        {station:"西熊本", time:"16:33"},
+        {station:"熊本操車場", time:"レ"},
+        {station:"熊本", time:"16:38"}
+       ],
+    },
+
+       "9441D":{
+        type:"キハ200-101 くまモンアドベンチャー号ラッピング",
+        images:[
+            "200-101_kumamoto_DC.webp",
+        ],
+        timetable:[
+        {station:"普通", time:"くまモンアドベンチャー号"},
+        {station:"運転日", time:"7/21～24、27～31、8/3～7、17～21、24～28"},
+        {station:"  ", time:"          "},
+        {station:"熊本", time:"9:02"},
+        {station:"平成", time:"レ"},
+        {station:"南熊本", time:"レ"},
+        {station:"新水前寺", time:"レ"},
+        {station:"水前寺", time:"レ"},
+        {station:"東海学園前", time:"レ"},
+        {station:"竜田口", time:"レ"},
+        {station:"武蔵塚", time:"レ"},
+        {station:"光の森", time:"レ"},
+        {station:"三里木", time:"レ"},
+        {station:"原水", time:"レ"},
+        {station:"肥後大津", time:"9:36"},
+        {station:"瀬田", time:"レ"},
+        {station:"立野", time:"9:55"},
+        {station:"赤水", time:"レ"},
+        {station:"市ノ川", time:"レ"},
+        {station:"内牧", time:"レ"},
+        {station:"阿蘇", time:"10:37"},
+        {station:"いこいの村", time:"レ"},
+        {station:"宮地", time:"10:42"}
+       ],
+    },
+
+       "9442D":{
+        type:"キハ200-101 くまモンアドベンチャー号ラッピング",
+        images:[
+            "200-101_kumamoto_DC.webp",
+        ],
+        timetable:[
+        {station:"普通", time:"くまモンアドベンチャー号"},
+        {station:"運転日", time:"7/21～24、27～31、8/3～7、17～21、24～28"},
+        {station:"  ", time:"          "},
+        {station:"宮地", time:"16:57"},
+        {station:"いこいの村", time:"レ"},
+        {station:"阿蘇", time:"17:02"},
+        {station:"内牧", time:"レ"},
+        {station:"市ノ川", time:"レ"},
+        {station:"赤水", time:"レ"},
+        {station:"立野", time:"17:33"},
+        {station:"瀬田", time:"レ"},
+        {station:"肥後大津", time:"17:53"},
+        {station:"原水", time:"レ"},
+        {station:"三里木", time:"レ"},
+        {station:"光の森", time:"レ"},
+        {station:"武蔵塚", time:"レ"},
+        {station:"竜田口", time:"レ"},
+        {station:"東海学園前", time:"レ"},
+        {station:"水前寺", time:"レ"},
+        {station:"新水前寺", time:"レ"},
+        {station:"南熊本", time:"レ"},
+        {station:"平成", time:"レ"},
+        {station:"熊本", time:"18:27"}
+       ],
+    },
+
+        "試9373D":{
+            type:"BE220 検測",
+            images:[
+                "hatena.png",
+            ],
+            timetable:[
+                {station:"試運転", time:"7/15運転"},
+                {station:"", time:""},
+                {station:"久留米", time:"1546"},
+                {station:"荒木", time:"1551/1553"},
+                {station:"羽犬塚", time:"1600/1605"},
+                {station:"瀬高", time:"1611/1617"},
+                {station:"大牟田", time:"1629/1634"},
+                {station:"玉名", time:"レ/1649"},
+                {station:"植木", time:"1702/1720"},
+                {station:"熊本", time:"1731/1734"},
+                {station:"熊本操", time:"1738/="},
+            ],
+        },
+
+        "9780M":{
+            type:"713系　団体臨時列車",
+            images:[
+                "713_LK.webp"
+            ],
+        timetable:[
+            {station:"鹿児島中央", time:"2046"},
+            {station:"鹿児島", time:"レ"},
+            {station:"竜ヶ水", time:"レ"},
+            {station:"重富", time:"レ"},
+            {station:"姶良", time:"レ"},
+            {station:"帖佐", time:"2117/2121"},
+            {station:"錦江", time:"レ"},
+            {station:"加治木", time:"レ"},
+            {station:"隼人", time:"レ"},
+            {station:"国分", time:"レ"},
+            {station:"南霧島信号場", time:"レ"},
+            {station:"霧島神宮", time:"2150/2152"},
+            {station:"北永野田", time:"レ"},
+            {station:"大隅大川原", time:"レ"},
+            {station:"北俣", time:"レ"},
+            {station:"財部", time:"レ"},
+            {station:"五十市", time:"レ"},
+            {station:"西都城", time:"レ"},
+            {station:"都城", time:"2220/2221"},
+            {station:"三股", time:"レ"},
+            {station:"餅原", time:"レ"},
+            {station:"山之口", time:"レ"},
+            {station:"楠ヶ丘信号場", time:"レ"},
+            {station:"青井岳", time:"レ"},
+            {station:"門石信号場", time:"レ"},
+            {station:"田野", time:"レ"},
+            {station:"日向沓掛", time:"レ"},
+            {station:"清武", time:"2303/2314"},
+            {station:"加納", time:"レ"},
+            {station:"南宮崎", time:"2321"},
+            {station:"列番変更", time:"㋵9782M"},
+            {station:"南宮崎", time:"2325"},
+            {station:"宮崎", time:"2329/0002"},
+            {station:"宮崎神宮", time:"レ"},
+            {station:"蓮ヶ池", time:"レ"},
+            {station:"日向住吉", time:"レ"},
+            {station:"佐土原", time:"レ"},
+            {station:"日向新富", time:"レ"},
+            {station:"高鍋", time:"レ"},
+            {station:"川南", time:"レ"},
+            {station:"都農", time:"レ"},
+            {station:"東都農", time:"レ"},
+            {station:"美々津", time:"レ"},
+            {station:"南日向", time:"レ"},
+            {station:"財光寺", time:"レ"},
+            {station:"日向市", time:"通過　0047"},
+            {station:"門川", time:"レ"},
+            {station:"土々呂", time:"レ"},
+            {station:"旭ヶ丘", time:"レ"},
+            {station:"南延岡", time:"レ"},
+            {station:"延岡", time:"0105"},
+            {station:"列番変更", time:"9684M"},
+            {station:"延岡", time:"0107"},
+            {station:"北延岡", time:"レ"},
+            {station:"日向長井", time:"レ"},
+            {station:"北川", time:"レ"},
+            {station:"市棚", time:"レ"},
+            {station:"宗太郎", time:"通過　0132"},
+            {station:"重岡", time:"レ"},
+            {station:"川原木信号場", time:"レ"},
+            {station:"直川", time:"レ"},
+            {station:"直見", time:"レ"},
+            {station:"上岡", time:"レ"},
+            {station:"佐伯", time:"0205/0206"},
+            {station:"海崎", time:"レ"},
+            {station:"狩生", time:"レ"},
+            {station:"浅海井", time:"レ"},
+            {station:"日代", time:"レ"},
+            {station:"津久見", time:"レ"},
+            {station:"臼杵", time:"通過　0235"},
+            {station:"上臼杵", time:"レ"},
+            {station:"熊崎", time:"レ"},
+            {station:"下ノ江", time:"レ"},
+            {station:"佐志生", time:"レ"},
+            {station:"幸崎", time:"レ"},
+            {station:"坂ノ市", time:"レ"},
+            {station:"大在", time:"レ"},
+            {station:"鶴崎", time:"レ"},
+            {station:"高城", time:"レ"},
+            {station:"牧", time:"レ"},
+            {station:"大分", time:"0308"},
+            {station:"列番変更", time:"9586M"},
+            {station:"大分", time:"0408"},
+            {station:"西大分", time:"レ"},
+            {station:"東別府", time:"レ"},
+            {station:"別府", time:"レ"},
+            {station:"別府大学", time:"レ"},
+            {station:"亀川", time:"レ"},
+            {station:"豊後豊岡", time:"レ"},
+            {station:"暘谷", time:"レ"},
+            {station:"日出", time:"レ"},
+            {station:"大神", time:"レ"},
+            {station:"杵築", time:"通過　0437"},
+            {station:"中山香", time:"レ"},
+            {station:"立石", time:"レ"},
+            {station:"西屋敷", time:"レ"},
+            {station:"宇佐", time:"レ"},
+            {station:"豊前長洲", time:"レ"},
+            {station:"柳ヶ浦", time:"レ"},
+            {station:"豊前善光寺", time:"レ"},
+            {station:"天津", time:"レ"},
+            {station:"今津", time:"レ"},
+            {station:"東中津", time:"レ"},
+            {station:"中津", time:"0514/0525"},
+            {station:"吉富", time:"レ"},
+            {station:"三毛門", time:"レ"},
+            {station:"宇島", time:"レ"},
+            {station:"豊前松江", time:"レ"},
+            {station:"椎田", time:"レ"},
+            {station:"築城", time:"レ"},
+            {station:"新田原", time:"0542/0556"},
+            {station:"南行橋", time:"レ"},
+            {station:"行橋", time:"レ"},
+            {station:"小波瀬西工大前", time:"レ"},
+            {station:"苅田", time:"レ"},
+            {station:"朽網", time:"レ"},
+            {station:"下曽根", time:"レ"},
+            {station:"安部山公園", time:"レ"},
+            {station:"城野", time:"レ"},
+            {station:"南小倉", time:"レ"},
+            {station:"西小倉", time:"レ"},
+            {station:"小倉", time:"0637/0642"},
+            {station:"東小倉", time:"レ"},
+            {station:"北九州貨物ターミナル", time:"レ"},
+            {station:"門司", time:"レ"},
+            {station:"小森江", time:"レ"},
+            {station:"門司港", time:"0700"},
+        ],
+    },
+
+    "9782M":{
+            type:"713系　団体臨時列車",
+            images:[
+                "713_LK.webp"
+            ],
+        timetable:[
+            {station:"鹿児島中央", time:"2046"},
+            {station:"鹿児島", time:"レ"},
+            {station:"竜ヶ水", time:"レ"},
+            {station:"重富", time:"レ"},
+            {station:"姶良", time:"レ"},
+            {station:"帖佐", time:"2117/2121"},
+            {station:"錦江", time:"レ"},
+            {station:"加治木", time:"レ"},
+            {station:"隼人", time:"レ"},
+            {station:"国分", time:"レ"},
+            {station:"南霧島信号場", time:"レ"},
+            {station:"霧島神宮", time:"2150/2152"},
+            {station:"北永野田", time:"レ"},
+            {station:"大隅大川原", time:"レ"},
+            {station:"北俣", time:"レ"},
+            {station:"財部", time:"レ"},
+            {station:"五十市", time:"レ"},
+            {station:"西都城", time:"レ"},
+            {station:"都城", time:"2220/2221"},
+            {station:"三股", time:"レ"},
+            {station:"餅原", time:"レ"},
+            {station:"山之口", time:"レ"},
+            {station:"楠ヶ丘信号場", time:"レ"},
+            {station:"青井岳", time:"レ"},
+            {station:"門石信号場", time:"レ"},
+            {station:"田野", time:"レ"},
+            {station:"日向沓掛", time:"レ"},
+            {station:"清武", time:"2303/2314"},
+            {station:"加納", time:"レ"},
+            {station:"南宮崎", time:"2321"},
+            {station:"列番変更", time:"㋵9782M"},
+            {station:"南宮崎", time:"2325"},
+            {station:"宮崎", time:"2329/0002"},
+            {station:"宮崎神宮", time:"レ"},
+            {station:"蓮ヶ池", time:"レ"},
+            {station:"日向住吉", time:"レ"},
+            {station:"佐土原", time:"レ"},
+            {station:"日向新富", time:"レ"},
+            {station:"高鍋", time:"レ"},
+            {station:"川南", time:"レ"},
+            {station:"都農", time:"レ"},
+            {station:"東都農", time:"レ"},
+            {station:"美々津", time:"レ"},
+            {station:"南日向", time:"レ"},
+            {station:"財光寺", time:"レ"},
+            {station:"日向市", time:"通過　0047"},
+            {station:"門川", time:"レ"},
+            {station:"土々呂", time:"レ"},
+            {station:"旭ヶ丘", time:"レ"},
+            {station:"南延岡", time:"レ"},
+            {station:"延岡", time:"0105"},
+            {station:"列番変更", time:"9684M"},
+            {station:"延岡", time:"0107"},
+            {station:"北延岡", time:"レ"},
+            {station:"日向長井", time:"レ"},
+            {station:"北川", time:"レ"},
+            {station:"市棚", time:"レ"},
+            {station:"宗太郎", time:"通過　0132"},
+            {station:"重岡", time:"レ"},
+            {station:"川原木信号場", time:"レ"},
+            {station:"直川", time:"レ"},
+            {station:"直見", time:"レ"},
+            {station:"上岡", time:"レ"},
+            {station:"佐伯", time:"0205/0206"},
+            {station:"海崎", time:"レ"},
+            {station:"狩生", time:"レ"},
+            {station:"浅海井", time:"レ"},
+            {station:"日代", time:"レ"},
+            {station:"津久見", time:"レ"},
+            {station:"臼杵", time:"通過　0235"},
+            {station:"上臼杵", time:"レ"},
+            {station:"熊崎", time:"レ"},
+            {station:"下ノ江", time:"レ"},
+            {station:"佐志生", time:"レ"},
+            {station:"幸崎", time:"レ"},
+            {station:"坂ノ市", time:"レ"},
+            {station:"大在", time:"レ"},
+            {station:"鶴崎", time:"レ"},
+            {station:"高城", time:"レ"},
+            {station:"牧", time:"レ"},
+            {station:"大分", time:"0308"},
+            {station:"列番変更", time:"9586M"},
+            {station:"大分", time:"0408"},
+            {station:"西大分", time:"レ"},
+            {station:"東別府", time:"レ"},
+            {station:"別府", time:"レ"},
+            {station:"別府大学", time:"レ"},
+            {station:"亀川", time:"レ"},
+            {station:"豊後豊岡", time:"レ"},
+            {station:"暘谷", time:"レ"},
+            {station:"日出", time:"レ"},
+            {station:"大神", time:"レ"},
+            {station:"杵築", time:"通過　0437"},
+            {station:"中山香", time:"レ"},
+            {station:"立石", time:"レ"},
+            {station:"西屋敷", time:"レ"},
+            {station:"宇佐", time:"レ"},
+            {station:"豊前長洲", time:"レ"},
+            {station:"柳ヶ浦", time:"レ"},
+            {station:"豊前善光寺", time:"レ"},
+            {station:"天津", time:"レ"},
+            {station:"今津", time:"レ"},
+            {station:"東中津", time:"レ"},
+            {station:"中津", time:"0514/0525"},
+            {station:"吉富", time:"レ"},
+            {station:"三毛門", time:"レ"},
+            {station:"宇島", time:"レ"},
+            {station:"豊前松江", time:"レ"},
+            {station:"椎田", time:"レ"},
+            {station:"築城", time:"レ"},
+            {station:"新田原", time:"0542/0556"},
+            {station:"南行橋", time:"レ"},
+            {station:"行橋", time:"レ"},
+            {station:"小波瀬西工大前", time:"レ"},
+            {station:"苅田", time:"レ"},
+            {station:"朽網", time:"レ"},
+            {station:"下曽根", time:"レ"},
+            {station:"安部山公園", time:"レ"},
+            {station:"城野", time:"レ"},
+            {station:"南小倉", time:"レ"},
+            {station:"西小倉", time:"レ"},
+            {station:"小倉", time:"0637/0642"},
+            {station:"東小倉", time:"レ"},
+            {station:"北九州貨物ターミナル", time:"レ"},
+            {station:"門司", time:"レ"},
+            {station:"小森江", time:"レ"},
+            {station:"門司港", time:"0700"},
+        ],
+    },
+
+    "9684M":{
+            type:"713系　団体臨時列車",
+            images:[
+                "713_LK.webp"
+            ],
+        timetable:[
+            {station:"鹿児島中央", time:"2046"},
+            {station:"鹿児島", time:"レ"},
+            {station:"竜ヶ水", time:"レ"},
+            {station:"重富", time:"レ"},
+            {station:"姶良", time:"レ"},
+            {station:"帖佐", time:"2117/2121"},
+            {station:"錦江", time:"レ"},
+            {station:"加治木", time:"レ"},
+            {station:"隼人", time:"レ"},
+            {station:"国分", time:"レ"},
+            {station:"南霧島信号場", time:"レ"},
+            {station:"霧島神宮", time:"2150/2152"},
+            {station:"北永野田", time:"レ"},
+            {station:"大隅大川原", time:"レ"},
+            {station:"北俣", time:"レ"},
+            {station:"財部", time:"レ"},
+            {station:"五十市", time:"レ"},
+            {station:"西都城", time:"レ"},
+            {station:"都城", time:"2220/2221"},
+            {station:"三股", time:"レ"},
+            {station:"餅原", time:"レ"},
+            {station:"山之口", time:"レ"},
+            {station:"楠ヶ丘信号場", time:"レ"},
+            {station:"青井岳", time:"レ"},
+            {station:"門石信号場", time:"レ"},
+            {station:"田野", time:"レ"},
+            {station:"日向沓掛", time:"レ"},
+            {station:"清武", time:"2303/2314"},
+            {station:"加納", time:"レ"},
+            {station:"南宮崎", time:"2321"},
+            {station:"列番変更", time:"㋵9782M"},
+            {station:"南宮崎", time:"2325"},
+            {station:"宮崎", time:"2329/0002"},
+            {station:"宮崎神宮", time:"レ"},
+            {station:"蓮ヶ池", time:"レ"},
+            {station:"日向住吉", time:"レ"},
+            {station:"佐土原", time:"レ"},
+            {station:"日向新富", time:"レ"},
+            {station:"高鍋", time:"レ"},
+            {station:"川南", time:"レ"},
+            {station:"都農", time:"レ"},
+            {station:"東都農", time:"レ"},
+            {station:"美々津", time:"レ"},
+            {station:"南日向", time:"レ"},
+            {station:"財光寺", time:"レ"},
+            {station:"日向市", time:"通過　0047"},
+            {station:"門川", time:"レ"},
+            {station:"土々呂", time:"レ"},
+            {station:"旭ヶ丘", time:"レ"},
+            {station:"南延岡", time:"レ"},
+            {station:"延岡", time:"0105"},
+            {station:"列番変更", time:"9684M"},
+            {station:"延岡", time:"0107"},
+            {station:"北延岡", time:"レ"},
+            {station:"日向長井", time:"レ"},
+            {station:"北川", time:"レ"},
+            {station:"市棚", time:"レ"},
+            {station:"宗太郎", time:"通過　0132"},
+            {station:"重岡", time:"レ"},
+            {station:"川原木信号場", time:"レ"},
+            {station:"直川", time:"レ"},
+            {station:"直見", time:"レ"},
+            {station:"上岡", time:"レ"},
+            {station:"佐伯", time:"0205/0206"},
+            {station:"海崎", time:"レ"},
+            {station:"狩生", time:"レ"},
+            {station:"浅海井", time:"レ"},
+            {station:"日代", time:"レ"},
+            {station:"津久見", time:"レ"},
+            {station:"臼杵", time:"通過　0235"},
+            {station:"上臼杵", time:"レ"},
+            {station:"熊崎", time:"レ"},
+            {station:"下ノ江", time:"レ"},
+            {station:"佐志生", time:"レ"},
+            {station:"幸崎", time:"レ"},
+            {station:"坂ノ市", time:"レ"},
+            {station:"大在", time:"レ"},
+            {station:"鶴崎", time:"レ"},
+            {station:"高城", time:"レ"},
+            {station:"牧", time:"レ"},
+            {station:"大分", time:"0308"},
+            {station:"列番変更", time:"9586M"},
+            {station:"大分", time:"0408"},
+            {station:"西大分", time:"レ"},
+            {station:"東別府", time:"レ"},
+            {station:"別府", time:"レ"},
+            {station:"別府大学", time:"レ"},
+            {station:"亀川", time:"レ"},
+            {station:"豊後豊岡", time:"レ"},
+            {station:"暘谷", time:"レ"},
+            {station:"日出", time:"レ"},
+            {station:"大神", time:"レ"},
+            {station:"杵築", time:"通過　0437"},
+            {station:"中山香", time:"レ"},
+            {station:"立石", time:"レ"},
+            {station:"西屋敷", time:"レ"},
+            {station:"宇佐", time:"レ"},
+            {station:"豊前長洲", time:"レ"},
+            {station:"柳ヶ浦", time:"レ"},
+            {station:"豊前善光寺", time:"レ"},
+            {station:"天津", time:"レ"},
+            {station:"今津", time:"レ"},
+            {station:"東中津", time:"レ"},
+            {station:"中津", time:"0514/0525"},
+            {station:"吉富", time:"レ"},
+            {station:"三毛門", time:"レ"},
+            {station:"宇島", time:"レ"},
+            {station:"豊前松江", time:"レ"},
+            {station:"椎田", time:"レ"},
+            {station:"築城", time:"レ"},
+            {station:"新田原", time:"0542/0556"},
+            {station:"南行橋", time:"レ"},
+            {station:"行橋", time:"レ"},
+            {station:"小波瀬西工大前", time:"レ"},
+            {station:"苅田", time:"レ"},
+            {station:"朽網", time:"レ"},
+            {station:"下曽根", time:"レ"},
+            {station:"安部山公園", time:"レ"},
+            {station:"城野", time:"レ"},
+            {station:"南小倉", time:"レ"},
+            {station:"西小倉", time:"レ"},
+            {station:"小倉", time:"0637/0642"},
+            {station:"東小倉", time:"レ"},
+            {station:"北九州貨物ターミナル", time:"レ"},
+            {station:"門司", time:"レ"},
+            {station:"小森江", time:"レ"},
+            {station:"門司港", time:"0700"},
+        ],
+    },
+
+    "9586M":{
+            type:"713系　団体臨時列車",
+            images:[
+                "713_LK.webp"
+            ],
+        timetable:[
+            {station:"鹿児島中央", time:"2046"},
+            {station:"鹿児島", time:"レ"},
+            {station:"竜ヶ水", time:"レ"},
+            {station:"重富", time:"レ"},
+            {station:"姶良", time:"レ"},
+            {station:"帖佐", time:"2117/2121"},
+            {station:"錦江", time:"レ"},
+            {station:"加治木", time:"レ"},
+            {station:"隼人", time:"レ"},
+            {station:"国分", time:"レ"},
+            {station:"南霧島信号場", time:"レ"},
+            {station:"霧島神宮", time:"2150/2152"},
+            {station:"北永野田", time:"レ"},
+            {station:"大隅大川原", time:"レ"},
+            {station:"北俣", time:"レ"},
+            {station:"財部", time:"レ"},
+            {station:"五十市", time:"レ"},
+            {station:"西都城", time:"レ"},
+            {station:"都城", time:"2220/2221"},
+            {station:"三股", time:"レ"},
+            {station:"餅原", time:"レ"},
+            {station:"山之口", time:"レ"},
+            {station:"楠ヶ丘信号場", time:"レ"},
+            {station:"青井岳", time:"レ"},
+            {station:"門石信号場", time:"レ"},
+            {station:"田野", time:"レ"},
+            {station:"日向沓掛", time:"レ"},
+            {station:"清武", time:"2303/2314"},
+            {station:"加納", time:"レ"},
+            {station:"南宮崎", time:"2321"},
+            {station:"列番変更", time:"㋵9782M"},
+            {station:"南宮崎", time:"2325"},
+            {station:"宮崎", time:"2329/0002"},
+            {station:"宮崎神宮", time:"レ"},
+            {station:"蓮ヶ池", time:"レ"},
+            {station:"日向住吉", time:"レ"},
+            {station:"佐土原", time:"レ"},
+            {station:"日向新富", time:"レ"},
+            {station:"高鍋", time:"レ"},
+            {station:"川南", time:"レ"},
+            {station:"都農", time:"レ"},
+            {station:"東都農", time:"レ"},
+            {station:"美々津", time:"レ"},
+            {station:"南日向", time:"レ"},
+            {station:"財光寺", time:"レ"},
+            {station:"日向市", time:"通過　0047"},
+            {station:"門川", time:"レ"},
+            {station:"土々呂", time:"レ"},
+            {station:"旭ヶ丘", time:"レ"},
+            {station:"南延岡", time:"レ"},
+            {station:"延岡", time:"0105"},
+            {station:"列番変更", time:"9684M"},
+            {station:"延岡", time:"0107"},
+            {station:"北延岡", time:"レ"},
+            {station:"日向長井", time:"レ"},
+            {station:"北川", time:"レ"},
+            {station:"市棚", time:"レ"},
+            {station:"宗太郎", time:"通過　0132"},
+            {station:"重岡", time:"レ"},
+            {station:"川原木信号場", time:"レ"},
+            {station:"直川", time:"レ"},
+            {station:"直見", time:"レ"},
+            {station:"上岡", time:"レ"},
+            {station:"佐伯", time:"0205/0206"},
+            {station:"海崎", time:"レ"},
+            {station:"狩生", time:"レ"},
+            {station:"浅海井", time:"レ"},
+            {station:"日代", time:"レ"},
+            {station:"津久見", time:"レ"},
+            {station:"臼杵", time:"通過　0235"},
+            {station:"上臼杵", time:"レ"},
+            {station:"熊崎", time:"レ"},
+            {station:"下ノ江", time:"レ"},
+            {station:"佐志生", time:"レ"},
+            {station:"幸崎", time:"レ"},
+            {station:"坂ノ市", time:"レ"},
+            {station:"大在", time:"レ"},
+            {station:"鶴崎", time:"レ"},
+            {station:"高城", time:"レ"},
+            {station:"牧", time:"レ"},
+            {station:"大分", time:"0308"},
+            {station:"列番変更", time:"9586M"},
+            {station:"大分", time:"0408"},
+            {station:"西大分", time:"レ"},
+            {station:"東別府", time:"レ"},
+            {station:"別府", time:"レ"},
+            {station:"別府大学", time:"レ"},
+            {station:"亀川", time:"レ"},
+            {station:"豊後豊岡", time:"レ"},
+            {station:"暘谷", time:"レ"},
+            {station:"日出", time:"レ"},
+            {station:"大神", time:"レ"},
+            {station:"杵築", time:"通過　0437"},
+            {station:"中山香", time:"レ"},
+            {station:"立石", time:"レ"},
+            {station:"西屋敷", time:"レ"},
+            {station:"宇佐", time:"レ"},
+            {station:"豊前長洲", time:"レ"},
+            {station:"柳ヶ浦", time:"レ"},
+            {station:"豊前善光寺", time:"レ"},
+            {station:"天津", time:"レ"},
+            {station:"今津", time:"レ"},
+            {station:"東中津", time:"レ"},
+            {station:"中津", time:"0514/0525"},
+            {station:"吉富", time:"レ"},
+            {station:"三毛門", time:"レ"},
+            {station:"宇島", time:"レ"},
+            {station:"豊前松江", time:"レ"},
+            {station:"椎田", time:"レ"},
+            {station:"築城", time:"レ"},
+            {station:"新田原", time:"0542/0556"},
+            {station:"南行橋", time:"レ"},
+            {station:"行橋", time:"レ"},
+            {station:"小波瀬西工大前", time:"レ"},
+            {station:"苅田", time:"レ"},
+            {station:"朽網", time:"レ"},
+            {station:"下曽根", time:"レ"},
+            {station:"安部山公園", time:"レ"},
+            {station:"城野", time:"レ"},
+            {station:"南小倉", time:"レ"},
+            {station:"西小倉", time:"レ"},
+            {station:"小倉", time:"0637/0642"},
+            {station:"東小倉", time:"レ"},
+            {station:"北九州貨物ターミナル", time:"レ"},
+            {station:"門司", time:"レ"},
+            {station:"小森江", time:"レ"},
+            {station:"門司港", time:"0700"},
+        ],
+    },
+
+    "回8012D":{
+        type:"キロシ47 熊本DC団臨",
+        images:[
+            "47_aru_train.webp"
+        ],
+        timetable:[
+            {station:"竹下(小)", time:"0937"},
+            {station:"博多", time:"0941/0951"},
+            {station:"吉塚", time:"0955"},
+            {station:"列番変更", time:"回8013D"},
+            {station:"吉塚", time:"1040"},
+            {station:"博多", time:"1043"},
+            {station:"列番変更", time:"9081D"},
+            {station:"博多", time:"1058"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"南福岡", time:"レ"},
+            {station:"春日", time:"レ"},
+            {station:"大野城", time:"レ"},
+            {station:"水城", time:"レ"},
+            {station:"大宰府信号場", time:"レ"},
+            {station:"都府楼南", time:"レ"},
+            {station:"二日市", time:"通過　1115"},
+            {station:"天拝山", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"基山", time:"1125/1129"},
+            {station:"弥生が丘", time:"レ"},
+            {station:"田代", time:"レ"},
+            {station:"鳥栖", time:"1146/1148"},
+            {station:"肥前旭", time:"レ"},
+            {station:"久留米", time:"レ"},
+            {station:"列番変更", time:"9083D"},
+            {station:"久留米", time:"1233"},
+            {station:"荒木", time:"レ"},
+            {station:"西牟田", time:"レ"},
+            {station:"羽犬塚", time:"レ"},
+            {station:"筑後船小屋", time:"レ"},
+            {station:"瀬高", time:"1247/1249"},
+            {station:"南瀬高", time:"レ"},
+            {station:"渡瀬", time:"レ"},
+            {station:"吉野", time:"レ"},
+            {station:"銀水", time:"レ"},
+            {station:"大牟田", time:"1303/1312"},
+            {station:"荒尾", time:"レ"},
+            {station:"南荒尾", time:"レ"},
+            {station:"長洲", time:"レ"},
+            {station:"大野下", time:"レ"},
+            {station:"玉名", time:"1330/1342"},
+            {station:"肥後伊倉", time:"レ"},
+            {station:"木葉", time:"レ"},
+            {station:"田原坂", time:"レ"},
+            {station:"植木", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"上熊本", time:"レ"},
+            {station:"熊本", time:"1405"},
+            {station:"列番変更", time:"回9384D"},
+            {station:"熊本", time:"1411"},
+            {station:"上熊本", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"植木", time:"1423"},
+        ],
+    },
+
+    "回8013D":{
+        type:"キロシ47 熊本DC団臨",
+        images:[
+            "47_aru_train.webp"
+        ],
+        timetable:[
+            {station:"竹下(小)", time:"0937"},
+            {station:"博多", time:"0941/0951"},
+            {station:"吉塚", time:"0955"},
+            {station:"列番変更", time:"回8013D"},
+            {station:"吉塚", time:"1040"},
+            {station:"博多", time:"1043"},
+            {station:"列番変更", time:"9081D"},
+            {station:"博多", time:"1058"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"南福岡", time:"レ"},
+            {station:"春日", time:"レ"},
+            {station:"大野城", time:"レ"},
+            {station:"水城", time:"レ"},
+            {station:"大宰府信号場", time:"レ"},
+            {station:"都府楼南", time:"レ"},
+            {station:"二日市", time:"通過　1115"},
+            {station:"天拝山", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"基山", time:"1125/1129"},
+            {station:"弥生が丘", time:"レ"},
+            {station:"田代", time:"レ"},
+            {station:"鳥栖", time:"1146/1148"},
+            {station:"肥前旭", time:"レ"},
+            {station:"久留米", time:"レ"},
+            {station:"列番変更", time:"9083D"},
+            {station:"久留米", time:"1233"},
+            {station:"荒木", time:"レ"},
+            {station:"西牟田", time:"レ"},
+            {station:"羽犬塚", time:"レ"},
+            {station:"筑後船小屋", time:"レ"},
+            {station:"瀬高", time:"1247/1249"},
+            {station:"南瀬高", time:"レ"},
+            {station:"渡瀬", time:"レ"},
+            {station:"吉野", time:"レ"},
+            {station:"銀水", time:"レ"},
+            {station:"大牟田", time:"1303/1312"},
+            {station:"荒尾", time:"レ"},
+            {station:"南荒尾", time:"レ"},
+            {station:"長洲", time:"レ"},
+            {station:"大野下", time:"レ"},
+            {station:"玉名", time:"1330/1342"},
+            {station:"肥後伊倉", time:"レ"},
+            {station:"木葉", time:"レ"},
+            {station:"田原坂", time:"レ"},
+            {station:"植木", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"上熊本", time:"レ"},
+            {station:"熊本", time:"1405"},
+            {station:"列番変更", time:"回9384D"},
+            {station:"熊本", time:"1411"},
+            {station:"上熊本", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"植木", time:"1423"},
+        ],
+    },
+
+    "9081D":{
+        type:"キロシ47 熊本DC団臨",
+        images:[
+            "47_aru_train.webp"
+        ],
+        timetable:[
+            {station:"竹下(小)", time:"0937"},
+            {station:"博多", time:"0941/0951"},
+            {station:"吉塚", time:"0955"},
+            {station:"列番変更", time:"回8013D"},
+            {station:"吉塚", time:"1040"},
+            {station:"博多", time:"1043"},
+            {station:"列番変更", time:"9081D"},
+            {station:"博多", time:"1058"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"南福岡", time:"レ"},
+            {station:"春日", time:"レ"},
+            {station:"大野城", time:"レ"},
+            {station:"水城", time:"レ"},
+            {station:"大宰府信号場", time:"レ"},
+            {station:"都府楼南", time:"レ"},
+            {station:"二日市", time:"通過　1115"},
+            {station:"天拝山", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"基山", time:"1125/1129"},
+            {station:"弥生が丘", time:"レ"},
+            {station:"田代", time:"レ"},
+            {station:"鳥栖", time:"1146/1148"},
+            {station:"肥前旭", time:"レ"},
+            {station:"久留米", time:"レ"},
+            {station:"列番変更", time:"9083D"},
+            {station:"久留米", time:"1233"},
+            {station:"荒木", time:"レ"},
+            {station:"西牟田", time:"レ"},
+            {station:"羽犬塚", time:"レ"},
+            {station:"筑後船小屋", time:"レ"},
+            {station:"瀬高", time:"1247/1249"},
+            {station:"南瀬高", time:"レ"},
+            {station:"渡瀬", time:"レ"},
+            {station:"吉野", time:"レ"},
+            {station:"銀水", time:"レ"},
+            {station:"大牟田", time:"1303/1312"},
+            {station:"荒尾", time:"レ"},
+            {station:"南荒尾", time:"レ"},
+            {station:"長洲", time:"レ"},
+            {station:"大野下", time:"レ"},
+            {station:"玉名", time:"1330/1342"},
+            {station:"肥後伊倉", time:"レ"},
+            {station:"木葉", time:"レ"},
+            {station:"田原坂", time:"レ"},
+            {station:"植木", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"上熊本", time:"レ"},
+            {station:"熊本", time:"1405"},
+            {station:"列番変更", time:"回9384D"},
+            {station:"熊本", time:"1411"},
+            {station:"上熊本", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"植木", time:"1423"},
+        ],
+    },
+
+    "9083D":{
+        type:"キロシ47 熊本DC団臨",
+        images:[
+            "47_aru_train.webp"
+        ],
+        timetable:[
+            {station:"竹下(小)", time:"0937"},
+            {station:"博多", time:"0941/0951"},
+            {station:"吉塚", time:"0955"},
+            {station:"列番変更", time:"回8013D"},
+            {station:"吉塚", time:"1040"},
+            {station:"博多", time:"1043"},
+            {station:"列番変更", time:"9081D"},
+            {station:"博多", time:"1058"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"南福岡", time:"レ"},
+            {station:"春日", time:"レ"},
+            {station:"大野城", time:"レ"},
+            {station:"水城", time:"レ"},
+            {station:"大宰府信号場", time:"レ"},
+            {station:"都府楼南", time:"レ"},
+            {station:"二日市", time:"通過　1115"},
+            {station:"天拝山", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"基山", time:"1125/1129"},
+            {station:"弥生が丘", time:"レ"},
+            {station:"田代", time:"レ"},
+            {station:"鳥栖", time:"1146/1148"},
+            {station:"肥前旭", time:"レ"},
+            {station:"久留米", time:"レ"},
+            {station:"列番変更", time:"9083D"},
+            {station:"久留米", time:"1233"},
+            {station:"荒木", time:"レ"},
+            {station:"西牟田", time:"レ"},
+            {station:"羽犬塚", time:"レ"},
+            {station:"筑後船小屋", time:"レ"},
+            {station:"瀬高", time:"1247/1249"},
+            {station:"南瀬高", time:"レ"},
+            {station:"渡瀬", time:"レ"},
+            {station:"吉野", time:"レ"},
+            {station:"銀水", time:"レ"},
+            {station:"大牟田", time:"1303/1312"},
+            {station:"荒尾", time:"レ"},
+            {station:"南荒尾", time:"レ"},
+            {station:"長洲", time:"レ"},
+            {station:"大野下", time:"レ"},
+            {station:"玉名", time:"1330/1342"},
+            {station:"肥後伊倉", time:"レ"},
+            {station:"木葉", time:"レ"},
+            {station:"田原坂", time:"レ"},
+            {station:"植木", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"上熊本", time:"レ"},
+            {station:"熊本", time:"1405"},
+            {station:"列番変更", time:"回9384D"},
+            {station:"熊本", time:"1411"},
+            {station:"上熊本", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"植木", time:"1423"},
+        ],
+    },
+
+    "回9384D":{
+        type:"キロシ47 熊本DC団臨",
+        images:[
+            "47_aru_train.webp"
+        ],
+        timetable:[
+            {station:"竹下(小)", time:"0937"},
+            {station:"博多", time:"0941/0951"},
+            {station:"吉塚", time:"0955"},
+            {station:"列番変更", time:"回8013D"},
+            {station:"吉塚", time:"1040"},
+            {station:"博多", time:"1043"},
+            {station:"列番変更", time:"9081D"},
+            {station:"博多", time:"1058"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"南福岡", time:"レ"},
+            {station:"春日", time:"レ"},
+            {station:"大野城", time:"レ"},
+            {station:"水城", time:"レ"},
+            {station:"大宰府信号場", time:"レ"},
+            {station:"都府楼南", time:"レ"},
+            {station:"二日市", time:"通過　1115"},
+            {station:"天拝山", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"基山", time:"1125/1129"},
+            {station:"弥生が丘", time:"レ"},
+            {station:"田代", time:"レ"},
+            {station:"鳥栖", time:"1146/1148"},
+            {station:"肥前旭", time:"レ"},
+            {station:"久留米", time:"レ"},
+            {station:"列番変更", time:"9083D"},
+            {station:"久留米", time:"1233"},
+            {station:"荒木", time:"レ"},
+            {station:"西牟田", time:"レ"},
+            {station:"羽犬塚", time:"レ"},
+            {station:"筑後船小屋", time:"レ"},
+            {station:"瀬高", time:"1247/1249"},
+            {station:"南瀬高", time:"レ"},
+            {station:"渡瀬", time:"レ"},
+            {station:"吉野", time:"レ"},
+            {station:"銀水", time:"レ"},
+            {station:"大牟田", time:"1303/1312"},
+            {station:"荒尾", time:"レ"},
+            {station:"南荒尾", time:"レ"},
+            {station:"長洲", time:"レ"},
+            {station:"大野下", time:"レ"},
+            {station:"玉名", time:"1330/1342"},
+            {station:"肥後伊倉", time:"レ"},
+            {station:"木葉", time:"レ"},
+            {station:"田原坂", time:"レ"},
+            {station:"植木", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"上熊本", time:"レ"},
+            {station:"熊本", time:"1405"},
+            {station:"列番変更", time:"回9384D"},
+            {station:"熊本", time:"1411"},
+            {station:"上熊本", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"植木", time:"1423"},
+        ],
+    },
+
+    "回9385D":{
+        type:"キロシ47 熊本DC団臨",
+        images:[
+            "47_aru_train.webp"
+        ],
+        timetable:[
+            {station:"植木", time:"1451"},
+            {station:"西里", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"上熊本", time:"レ"},
+            {station:"熊本", time:"1502"},
+            {station:"列番変更", time:"9086D"},
+            {station:"熊本", time:"1511"},
+            {station:"上熊本", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"植木", time:"レ"},
+            {station:"田原坂", time:"レ"},
+            {station:"木葉", time:"レ"},
+            {station:"肥後伊倉", time:"レ"},
+            {station:"玉名", time:"通過　1535"},
+            {station:"大野下", time:"レ"},
+            {station:"長洲", time:"レ"},
+            {station:"南荒尾", time:"レ"},
+            {station:"荒尾", time:"レ"},
+            {station:"大牟田", time:"1552/1558"},
+            {station:"銀水", time:"レ"},
+            {station:"吉野", time:"レ"},
+            {station:"渡瀬", time:"レ"},
+            {station:"南瀬高", time:"レ"},
+            {station:"瀬高", time:"レ"},
+            {station:"筑後船小屋", time:"レ"},
+            {station:"羽犬塚", time:"レ"},
+            {station:"西牟田", time:"レ"},
+            {station:"荒木", time:"1622/1634"},
+            {station:"久留米", time:"1641"},
+            {station:"列番変更", time:"9088D"},
+            {station:"久留米", time:"1718"},
+            {station:"肥前旭", time:"レ"},
+            {station:"鳥栖", time:"1726/1727"},
+            {station:"田代", time:"レ"},
+            {station:"弥生が丘", time:"レ"},
+            {station:"基山", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"天拝山", time:"レ"},
+            {station:"二日市", time:"レ"},
+            {station:"都府楼南", time:"レ"},
+            {station:"大宰府信号場", time:"1746/1748"},
+            {station:"水城", time:"レ"},
+            {station:"大野下", time:"レ"},
+            {station:"春日", time:"レ"},
+            {station:"南福岡", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"博多", time:"1803"},
+            {station:"列番変更", time:"回8014D"},
+            {station:"博多", time:"1813"},
+            {station:"吉塚", time:"1817"},
+            {station:"列番変更", time:"回8017D"},
+            {station:"吉塚", time:"1913"},
+            {station:"博多", time:"1917/1920"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"南福岡", time:"1928/1936"},
+            {station:"春日", time:"レ"},
+            {station:"大野城", time:"レ"},
+            {station:"水城", time:"レ"},
+            {station:"大宰府信号場", time:"1943/1948"},
+            {station:"都府楼南", time:"レ"},
+            {station:"二日市", time:"通過　1951"},
+            {station:"天拝山", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"基山", time:"レ"},
+            {station:"弥生が丘", time:"2011/2012"},
+            {station:"田代", time:"レ"},
+            {station:"鳥栖", time:"2017/2018"},
+            {station:"新鳥栖", time:"レ"},
+            {station:"肥前麓", time:"レ"},
+            {station:"中原", time:"レ"},
+            {station:"吉野ヶ里公園", time:"2031/2037"},
+            {station:"神崎", time:"レ"},
+            {station:"伊賀屋", time:"レ"},
+            {station:"佐賀", time:"2049/2051"},
+            {station:"鍋島", time:"レ"},
+            {station:"バルーンさが", time:"レ"},
+            {station:"久保田", time:"通過　2058"},
+            {station:"牛津", time:"レ"},
+            {station:"江北", time:"2107/2108"},
+            {station:"大町", time:"レ"},
+            {station:"北方", time:"レ"},
+            {station:"高橋", time:"レ"},
+            {station:"武雄温泉", time:"2127/2108"},
+            {station:"永尾", time:"レ"},
+            {station:"三間坂", time:"レ"},
+            {station:"上有田", time:"レ"},
+            {station:"有田", time:"2203/2209"},
+            {station:"西有田信号所", time:"レ"},
+            {station:"三河内", time:"レ"},
+            {station:"早岐", time:"2222"},
+        ],
+    },
+
+     "9086D":{
+        type:"キロシ47 熊本DC団臨",
+        images:[
+            "47_aru_train.webp"
+        ],
+        timetable:[
+            {station:"植木", time:"1451"},
+            {station:"西里", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"上熊本", time:"レ"},
+            {station:"熊本", time:"1502"},
+            {station:"列番変更", time:"9086D"},
+            {station:"熊本", time:"1511"},
+            {station:"上熊本", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"植木", time:"レ"},
+            {station:"田原坂", time:"レ"},
+            {station:"木葉", time:"レ"},
+            {station:"肥後伊倉", time:"レ"},
+            {station:"玉名", time:"通過　1535"},
+            {station:"大野下", time:"レ"},
+            {station:"長洲", time:"レ"},
+            {station:"南荒尾", time:"レ"},
+            {station:"荒尾", time:"レ"},
+            {station:"大牟田", time:"1552/1558"},
+            {station:"銀水", time:"レ"},
+            {station:"吉野", time:"レ"},
+            {station:"渡瀬", time:"レ"},
+            {station:"南瀬高", time:"レ"},
+            {station:"瀬高", time:"レ"},
+            {station:"筑後船小屋", time:"レ"},
+            {station:"羽犬塚", time:"レ"},
+            {station:"西牟田", time:"レ"},
+            {station:"荒木", time:"1622/1634"},
+            {station:"久留米", time:"1641"},
+            {station:"列番変更", time:"9088D"},
+            {station:"久留米", time:"1718"},
+            {station:"肥前旭", time:"レ"},
+            {station:"鳥栖", time:"1726/1727"},
+            {station:"田代", time:"レ"},
+            {station:"弥生が丘", time:"レ"},
+            {station:"基山", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"天拝山", time:"レ"},
+            {station:"二日市", time:"レ"},
+            {station:"都府楼南", time:"レ"},
+            {station:"大宰府信号場", time:"1746/1748"},
+            {station:"水城", time:"レ"},
+            {station:"大野下", time:"レ"},
+            {station:"春日", time:"レ"},
+            {station:"南福岡", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"博多", time:"1803"},
+            {station:"列番変更", time:"回8014D"},
+            {station:"博多", time:"1813"},
+            {station:"吉塚", time:"1817"},
+            {station:"列番変更", time:"回8017D"},
+            {station:"吉塚", time:"1913"},
+            {station:"博多", time:"1917/1920"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"南福岡", time:"1928/1936"},
+            {station:"春日", time:"レ"},
+            {station:"大野城", time:"レ"},
+            {station:"水城", time:"レ"},
+            {station:"大宰府信号場", time:"1943/1948"},
+            {station:"都府楼南", time:"レ"},
+            {station:"二日市", time:"通過　1951"},
+            {station:"天拝山", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"基山", time:"レ"},
+            {station:"弥生が丘", time:"2011/2012"},
+            {station:"田代", time:"レ"},
+            {station:"鳥栖", time:"2017/2018"},
+            {station:"新鳥栖", time:"レ"},
+            {station:"肥前麓", time:"レ"},
+            {station:"中原", time:"レ"},
+            {station:"吉野ヶ里公園", time:"2031/2037"},
+            {station:"神崎", time:"レ"},
+            {station:"伊賀屋", time:"レ"},
+            {station:"佐賀", time:"2049/2051"},
+            {station:"鍋島", time:"レ"},
+            {station:"バルーンさが", time:"レ"},
+            {station:"久保田", time:"通過　2058"},
+            {station:"牛津", time:"レ"},
+            {station:"江北", time:"2107/2108"},
+            {station:"大町", time:"レ"},
+            {station:"北方", time:"レ"},
+            {station:"高橋", time:"レ"},
+            {station:"武雄温泉", time:"2127/2108"},
+            {station:"永尾", time:"レ"},
+            {station:"三間坂", time:"レ"},
+            {station:"上有田", time:"レ"},
+            {station:"有田", time:"2203/2209"},
+            {station:"西有田信号所", time:"レ"},
+            {station:"三河内", time:"レ"},
+            {station:"早岐", time:"2222"},
+        ],
+    },
+
+     "9088D":{
+        type:"キロシ47 熊本DC団臨",
+        images:[
+            "47_aru_train.webp"
+        ],
+        timetable:[
+            {station:"植木", time:"1451"},
+            {station:"西里", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"上熊本", time:"レ"},
+            {station:"熊本", time:"1502"},
+            {station:"列番変更", time:"9086D"},
+            {station:"熊本", time:"1511"},
+            {station:"上熊本", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"植木", time:"レ"},
+            {station:"田原坂", time:"レ"},
+            {station:"木葉", time:"レ"},
+            {station:"肥後伊倉", time:"レ"},
+            {station:"玉名", time:"通過　1535"},
+            {station:"大野下", time:"レ"},
+            {station:"長洲", time:"レ"},
+            {station:"南荒尾", time:"レ"},
+            {station:"荒尾", time:"レ"},
+            {station:"大牟田", time:"1552/1558"},
+            {station:"銀水", time:"レ"},
+            {station:"吉野", time:"レ"},
+            {station:"渡瀬", time:"レ"},
+            {station:"南瀬高", time:"レ"},
+            {station:"瀬高", time:"レ"},
+            {station:"筑後船小屋", time:"レ"},
+            {station:"羽犬塚", time:"レ"},
+            {station:"西牟田", time:"レ"},
+            {station:"荒木", time:"1622/1634"},
+            {station:"久留米", time:"1641"},
+            {station:"列番変更", time:"9088D"},
+            {station:"久留米", time:"1718"},
+            {station:"肥前旭", time:"レ"},
+            {station:"鳥栖", time:"1726/1727"},
+            {station:"田代", time:"レ"},
+            {station:"弥生が丘", time:"レ"},
+            {station:"基山", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"天拝山", time:"レ"},
+            {station:"二日市", time:"レ"},
+            {station:"都府楼南", time:"レ"},
+            {station:"大宰府信号場", time:"1746/1748"},
+            {station:"水城", time:"レ"},
+            {station:"大野下", time:"レ"},
+            {station:"春日", time:"レ"},
+            {station:"南福岡", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"博多", time:"1803"},
+            {station:"列番変更", time:"回8014D"},
+            {station:"博多", time:"1813"},
+            {station:"吉塚", time:"1817"},
+            {station:"列番変更", time:"回8017D"},
+            {station:"吉塚", time:"1913"},
+            {station:"博多", time:"1917/1920"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"南福岡", time:"1928/1936"},
+            {station:"春日", time:"レ"},
+            {station:"大野城", time:"レ"},
+            {station:"水城", time:"レ"},
+            {station:"大宰府信号場", time:"1943/1948"},
+            {station:"都府楼南", time:"レ"},
+            {station:"二日市", time:"通過　1951"},
+            {station:"天拝山", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"基山", time:"レ"},
+            {station:"弥生が丘", time:"2011/2012"},
+            {station:"田代", time:"レ"},
+            {station:"鳥栖", time:"2017/2018"},
+            {station:"新鳥栖", time:"レ"},
+            {station:"肥前麓", time:"レ"},
+            {station:"中原", time:"レ"},
+            {station:"吉野ヶ里公園", time:"2031/2037"},
+            {station:"神崎", time:"レ"},
+            {station:"伊賀屋", time:"レ"},
+            {station:"佐賀", time:"2049/2051"},
+            {station:"鍋島", time:"レ"},
+            {station:"バルーンさが", time:"レ"},
+            {station:"久保田", time:"通過　2058"},
+            {station:"牛津", time:"レ"},
+            {station:"江北", time:"2107/2108"},
+            {station:"大町", time:"レ"},
+            {station:"北方", time:"レ"},
+            {station:"高橋", time:"レ"},
+            {station:"武雄温泉", time:"2127/2108"},
+            {station:"永尾", time:"レ"},
+            {station:"三間坂", time:"レ"},
+            {station:"上有田", time:"レ"},
+            {station:"有田", time:"2203/2209"},
+            {station:"西有田信号所", time:"レ"},
+            {station:"三河内", time:"レ"},
+            {station:"早岐", time:"2222"},
+        ],
+    },
+
+     "8014D":{
+        type:"キロシ47 熊本DC団臨",
+        images:[
+            "47_aru_train.webp"
+        ],
+        timetable:[
+            {station:"植木", time:"1451"},
+            {station:"西里", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"上熊本", time:"レ"},
+            {station:"熊本", time:"1502"},
+            {station:"列番変更", time:"9086D"},
+            {station:"熊本", time:"1511"},
+            {station:"上熊本", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"植木", time:"レ"},
+            {station:"田原坂", time:"レ"},
+            {station:"木葉", time:"レ"},
+            {station:"肥後伊倉", time:"レ"},
+            {station:"玉名", time:"通過　1535"},
+            {station:"大野下", time:"レ"},
+            {station:"長洲", time:"レ"},
+            {station:"南荒尾", time:"レ"},
+            {station:"荒尾", time:"レ"},
+            {station:"大牟田", time:"1552/1558"},
+            {station:"銀水", time:"レ"},
+            {station:"吉野", time:"レ"},
+            {station:"渡瀬", time:"レ"},
+            {station:"南瀬高", time:"レ"},
+            {station:"瀬高", time:"レ"},
+            {station:"筑後船小屋", time:"レ"},
+            {station:"羽犬塚", time:"レ"},
+            {station:"西牟田", time:"レ"},
+            {station:"荒木", time:"1622/1634"},
+            {station:"久留米", time:"1641"},
+            {station:"列番変更", time:"9088D"},
+            {station:"久留米", time:"1718"},
+            {station:"肥前旭", time:"レ"},
+            {station:"鳥栖", time:"1726/1727"},
+            {station:"田代", time:"レ"},
+            {station:"弥生が丘", time:"レ"},
+            {station:"基山", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"天拝山", time:"レ"},
+            {station:"二日市", time:"レ"},
+            {station:"都府楼南", time:"レ"},
+            {station:"大宰府信号場", time:"1746/1748"},
+            {station:"水城", time:"レ"},
+            {station:"大野下", time:"レ"},
+            {station:"春日", time:"レ"},
+            {station:"南福岡", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"博多", time:"1803"},
+            {station:"列番変更", time:"回8014D"},
+            {station:"博多", time:"1813"},
+            {station:"吉塚", time:"1817"},
+            {station:"列番変更", time:"回8017D"},
+            {station:"吉塚", time:"1913"},
+            {station:"博多", time:"1917/1920"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"南福岡", time:"1928/1936"},
+            {station:"春日", time:"レ"},
+            {station:"大野城", time:"レ"},
+            {station:"水城", time:"レ"},
+            {station:"大宰府信号場", time:"1943/1948"},
+            {station:"都府楼南", time:"レ"},
+            {station:"二日市", time:"通過　1951"},
+            {station:"天拝山", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"基山", time:"レ"},
+            {station:"弥生が丘", time:"2011/2012"},
+            {station:"田代", time:"レ"},
+            {station:"鳥栖", time:"2017/2018"},
+            {station:"新鳥栖", time:"レ"},
+            {station:"肥前麓", time:"レ"},
+            {station:"中原", time:"レ"},
+            {station:"吉野ヶ里公園", time:"2031/2037"},
+            {station:"神崎", time:"レ"},
+            {station:"伊賀屋", time:"レ"},
+            {station:"佐賀", time:"2049/2051"},
+            {station:"鍋島", time:"レ"},
+            {station:"バルーンさが", time:"レ"},
+            {station:"久保田", time:"通過　2058"},
+            {station:"牛津", time:"レ"},
+            {station:"江北", time:"2107/2108"},
+            {station:"大町", time:"レ"},
+            {station:"北方", time:"レ"},
+            {station:"高橋", time:"レ"},
+            {station:"武雄温泉", time:"2127/2108"},
+            {station:"永尾", time:"レ"},
+            {station:"三間坂", time:"レ"},
+            {station:"上有田", time:"レ"},
+            {station:"有田", time:"2203/2209"},
+            {station:"西有田信号所", time:"レ"},
+            {station:"三河内", time:"レ"},
+            {station:"早岐", time:"2222"},
+        ],
+    },
+
+     "回8017D":{
+        type:"キロシ47 熊本DC団臨",
+        images:[
+            "47_aru_train.webp"
+        ],
+        timetable:[
+            {station:"植木", time:"1451"},
+            {station:"西里", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"上熊本", time:"レ"},
+            {station:"熊本", time:"1502"},
+            {station:"列番変更", time:"9086D"},
+            {station:"熊本", time:"1511"},
+            {station:"上熊本", time:"レ"},
+            {station:"崇城大学前", time:"レ"},
+            {station:"西里", time:"レ"},
+            {station:"植木", time:"レ"},
+            {station:"田原坂", time:"レ"},
+            {station:"木葉", time:"レ"},
+            {station:"肥後伊倉", time:"レ"},
+            {station:"玉名", time:"通過　1535"},
+            {station:"大野下", time:"レ"},
+            {station:"長洲", time:"レ"},
+            {station:"南荒尾", time:"レ"},
+            {station:"荒尾", time:"レ"},
+            {station:"大牟田", time:"1552/1558"},
+            {station:"銀水", time:"レ"},
+            {station:"吉野", time:"レ"},
+            {station:"渡瀬", time:"レ"},
+            {station:"南瀬高", time:"レ"},
+            {station:"瀬高", time:"レ"},
+            {station:"筑後船小屋", time:"レ"},
+            {station:"羽犬塚", time:"レ"},
+            {station:"西牟田", time:"レ"},
+            {station:"荒木", time:"1622/1634"},
+            {station:"久留米", time:"1641"},
+            {station:"列番変更", time:"9088D"},
+            {station:"久留米", time:"1718"},
+            {station:"肥前旭", time:"レ"},
+            {station:"鳥栖", time:"1726/1727"},
+            {station:"田代", time:"レ"},
+            {station:"弥生が丘", time:"レ"},
+            {station:"基山", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"天拝山", time:"レ"},
+            {station:"二日市", time:"レ"},
+            {station:"都府楼南", time:"レ"},
+            {station:"大宰府信号場", time:"1746/1748"},
+            {station:"水城", time:"レ"},
+            {station:"大野下", time:"レ"},
+            {station:"春日", time:"レ"},
+            {station:"南福岡", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"博多", time:"1803"},
+            {station:"列番変更", time:"回8014D"},
+            {station:"博多", time:"1813"},
+            {station:"吉塚", time:"1817"},
+            {station:"列番変更", time:"回8017D"},
+            {station:"吉塚", time:"1913"},
+            {station:"博多", time:"1917/1920"},
+            {station:"竹下(小)", time:"レ"},
+            {station:"竹下", time:"レ"},
+            {station:"笹原", time:"レ"},
+            {station:"南福岡", time:"1928/1936"},
+            {station:"春日", time:"レ"},
+            {station:"大野城", time:"レ"},
+            {station:"水城", time:"レ"},
+            {station:"大宰府信号場", time:"1943/1948"},
+            {station:"都府楼南", time:"レ"},
+            {station:"二日市", time:"通過　1951"},
+            {station:"天拝山", time:"レ"},
+            {station:"原田", time:"レ"},
+            {station:"けやき台", time:"レ"},
+            {station:"基山", time:"レ"},
+            {station:"弥生が丘", time:"2011/2012"},
+            {station:"田代", time:"レ"},
+            {station:"鳥栖", time:"2017/2018"},
+            {station:"新鳥栖", time:"レ"},
+            {station:"肥前麓", time:"レ"},
+            {station:"中原", time:"レ"},
+            {station:"吉野ヶ里公園", time:"2031/2037"},
+            {station:"神崎", time:"レ"},
+            {station:"伊賀屋", time:"レ"},
+            {station:"佐賀", time:"2049/2051"},
+            {station:"鍋島", time:"レ"},
+            {station:"バルーンさが", time:"レ"},
+            {station:"久保田", time:"通過　2058"},
+            {station:"牛津", time:"レ"},
+            {station:"江北", time:"2107/2108"},
+            {station:"大町", time:"レ"},
+            {station:"北方", time:"レ"},
+            {station:"高橋", time:"レ"},
+            {station:"武雄温泉", time:"2127/2108"},
+            {station:"永尾", time:"レ"},
+            {station:"三間坂", time:"レ"},
+            {station:"上有田", time:"レ"},
+            {station:"有田", time:"2203/2209"},
+            {station:"西有田信号所", time:"レ"},
+            {station:"三河内", time:"レ"},
+            {station:"早岐", time:"2222"},
+        ],
+    },
+
+    "単8323":{
+        type:"DE10ハンドル訓練",
+        images:[
+            "hatena.png"
+        ],
+    timetable:[
+        {station:"八代", time:"1209"},
+        {station:"新八代", time:"1214/1214"},
+        {station:"千丁", time:"通過　1217"},
+        {station:"有佐", time:"1221/1221"},
+        {station:"小川", time:"通過　1227"},
+        {station:"松橋", time:"1232/1233"},
+        {station:"宇土", time:"1238/1239"},
+        {station:"富合", time:"通過　1243"},
+        {station:"川尻", time:"1246/1247"},
+        {station:"川尻信号場", time:"通過　1249"},
+        {station:"西熊本", time:"通過　1250"},
+        {station:"熊本操車場", time:"通過　1251"},
+        {station:"熊本", time:"1254"},
+        ],
+    },
+
+    "試7165M":{
+        type:"KK出場",
+        images:[
+            "813_RM_Nomal.webp",
+            "BEC819_All.webp",
+            "hatena.png"
+        ],
+    timetable:[
+        {station:"西小倉", time:"1252"},
+        {station:"浜小倉", time:"レ"},
+        {station:"九州工大前", time:"レ"},
+        {station:"戸畑", time:"レ"},
+        {station:"枝光", time:"レ"},
+        {station:"スペースワールド", time:"レ"},
+        {station:"八幡", time:"レ"},
+        {station:"黒崎", time:"1310"},
+        {station:"陣原", time:"レ"},
+        {station:"折尾", time:"1316"},
+        {station:"水巻", time:"レ"},
+        {station:"遠賀川", time:"レ"},
+        {station:"海老津", time:"レ"},
+        {station:"教育大前", time:"レ"},
+        {station:"赤間", time:"1330"},
+        {station:"東郷", time:"レ"},
+        {station:"東福間", time:"レ"},
+        {station:"福間", time:"1341"},
+        {station:"千鳥", time:"レ"},
+        {station:"古賀", time:"レ"},
+        {station:"ししぶ", time:"レ"},
+        {station:"新宮中央", time:"レ"},
+        {station:"福工大前", time:"レ"},
+        {station:"九産大前", time:"レ"},
+        {station:"香椎", time:"1356"},
+        {station:"千早", time:"レ"},
+        {station:"(JR貝塚)", time:"未開業"},
+        {station:"千早操車場", time:"レ"},
+        {station:"箱崎", time:"レ"},
+        {station:"吉塚電留", time:"レ"},
+        {station:"吉塚", time:"1407"},
+        {station:"博多", time:"1410-1412"},
+        {station:"竹下(小)", time:"レ"},
+        {station:"竹下", time:"レ"},
+        {station:"笹原", time:"レ"},
+        {station:"南福岡", time:"1425"},
+        {station:"", time:""},
+        {station:"819系ZG5305", time:"9月16日"},
+        ],
+    },
+
+    "8896レ":{
+        type:"4000系甲種",
+        images:[
+            "hatena.png",
+            "4000.webp"
+        ],
+    timetable:[
+        {station:"兵庫", time:"1047"},
+        {station:"鷹取", time:"1054"},
+        {station:"列番変更", time:"9863レ"},
+        {station:"鷹取", time:"1534"},
+        {station:"須磨", time:"1537"},
+        {station:"西明石", time:"1553/1559"},
+        {station:"大久保", time:"1604"},
+        {station:"土山", time:"1609"},
+        {station:"東加古川", time:"1613"},
+        {station:"加古川", time:"1616"},
+        {station:"宝殿", time:"1619"},
+        {station:"姫路貨", time:"1626"},
+        {station:"列番変更", time:"8863レ"},
+        {station:"姫路貨", time:"0147"},
+        {station:"御着", time:"0150"},
+        {station:"姫路", time:"0154"},
+        {station:"英賀保", time:"0158"},
+        {station:"網干", time:"0203"},
+        {station:"相生", time:"0212"},
+        {station:"上郡", time:"0224"},
+        {station:"三石", time:"0235"},
+        ],
+    },
+
+    "回8345M":{
+        type:"115系 廃車回送",
+        images:[
+            "115_A.webp",
+        ],
+    timetable:[
+        {station:"岡山", time:"1134"},
+        {station:"岡山タ", time:"1138"},
+        {station:"庭瀬", time:"1142"},
+        {station:"中庄", time:"1147"},
+        {station:"倉敷", time:"1152"},
+        {station:"西阿知", time:"1156"},
+        {station:"新倉敷", time:"1202"},
+        {station:"金光", time:"1208"},
+        {station:"鴨方", time:"1212"},
+        {station:"里庄", time:"1216"},
+        {station:"笠岡", time:"1222"},
+        {station:"大門", time:"1229"},
+        {station:"東福山", time:"1233"},
+        {station:"福山", time:"1237"},
+        {station:"備後赤坂", time:"1243"},
+        {station:"松永", time:"1248"},
+        {station:"尾道", time:"1256"},
+        {station:"糸崎", time:"1308-1310"},
+        {station:"三原", time:"1313"},
+        {station:"本郷", time:"1321"},
+        {station:"河内", time:"1333-1359"},
+        {station:"白市", time:"1407"},
+        {station:"西高屋", time:"1412"},
+        {station:"西条", time:"1416"},
+        {station:"八本松", time:"1422"},
+        {station:"瀬野", time:"1433"},
+        {station:"安芸中野", time:"1438"},
+        {station:"海田市", time:"1441"},
+        {station:"広島", time:"1449-1452"},
+        {station:"横川", time:"1456-1515"},
+        {station:"西広島", time:"1518"},
+        {station:"五日市", time:"1524"},
+        {station:"廿日市", time:"1528"},
+        {station:"宮島口", time:"1536"},
+        {station:"大野浦", time:"1542"},
+        {station:"玖波", time:"1547"},
+        {station:"大竹", time:"1551"},
+        {station:"岩国", time:"1558-1600"},
+        {station:"南岩国", time:"1605"},
+        {station:"藤生", time:"1607"},
+        {station:"由宇", time:"1613"},
+        {station:"大畠", time:"1621"},
+        {station:"柳井港", time:"1625"},
+        {station:"柳井", time:"1629-1630"},
+        {station:"田布施", time:"1635"},
+        {station:"岩田", time:"1640"},
+        {station:"島田", time:"1644"},
+        {station:"光", time:"1648"},
+        {station:"下松", time:"1653"},
+        {station:"櫛ヶ浜", time:"1657"},
+        {station:"徳山", time:"1701-1706"},
+        {station:"新南陽", time:"1710"},
+        {station:"福川", time:"1712"},
+        {station:"戸田", time:"1716"},
+        {station:"富海", time:"1724"},
+        {station:"大道", time:"1737"},
+        {station:"四辻", time:"1741"},
+        {station:"新山口", time:"1746-1748"},
+        {station:"嘉川", time:"1752"},
+        {station:"本由良", time:"1756"},
+        {station:"厚東", time:"1805"},
+        {station:"宇部", time:"1811"},
+        {station:"小野田", time:"1815-1820"},
+        {station:"厚狭", time:"1826"},
+        {station:"埴生", time:"1833"},
+        {station:"小月", time:"1838"},
+        {station:"長府", time:"1842"},
+        {station:"新下関", time:"1848"},
+        {station:"幡生", time:"1851"},
+        {station:"下関", time:"1856"},
+        ],
+    },
+
+    "試6680M":{
+        type:"115系 廃車回送",
+        images:[
+            "115_A.webp",
+        ],
+    timetable:[
+        {station:"下関", time:"0835"},
+        {station:"幡生", time:"0841"},
+        ],
+    },
+
+    //定期列車　鹿児島本線　熊本・八代方面(一部例外あり)
+
+       "6321M":{
+            type:"UT3B",
+            images:[
+                "821_All.webp"
+            ],
+        timetable:[
+        {station:"熊本", time:"0559"},
+        {station:"熊本操車場", time:"レ"},
+        {station:"西熊本", time:"0603"},
+        {station:"川尻信号場", time:"レ"},
+        {station:"川尻", time:"0605"},
+        {station:"富合", time:"0609"},
+        {station:"宇土", time:"0612"},
+        {station:"松橋", time:"0616"},
+        {station:"小川", time:"0622"},
+        {station:"有佐", time:"0626"},
+        {station:"千丁", time:"0630"},
+        {station:"新八代", time:"0633"},
+        {station:"八代", time:"0637"}
+       ],
+    },
+
+       "321M":{
+            type:"VT/NT 共通2B 熊本にて増結",
+            images:[
+                "815_T_All.webp"
+            ],
+        timetable:[
+        {station:"玉名", time:"0557"},
+        {station:"肥後伊倉", time:"0602"},
+        {station:"木葉", time:"0606"},
+        {station:"田原坂", time:"0610"},
+        {station:"植木", time:"0614"},
+        {station:"西里", time:"0618"},
+        {station:"崇城大学前", time:"0621"},
+        {station:"上熊本", time:"0624"},
+        {station:"熊本", time:"0628"},
+        {station:"増結2B", time:"1429M"},
+        {station:"熊本", time:"0639"},
+        {station:"平成", time:"0643"},
+        {station:"南熊本", time:"0646"},
+        {station:"新水前寺", time:"0649"},
+        {station:"水前寺", time:"0654"},
+        {station:"東海学園前", time:"0657"},
+        {station:"竜田口", time:"0702"},
+        {station:"武蔵塚", time:"0711"},
+        {station:"光の森", time:"0715"},
+        {station:"三里木", time:"0718"},
+        {station:"原水", time:"0721"},
+        {station:"肥後大津", time:"0725"}
+       ],
+    },
+
+       "1429M":{
+            type:"VT/NT 共通4B",
+            images:[
+                "815_T_All.webp",
+                "817_0.webp"
+            ],
+        timetable:[
+        {station:"熊本", time:"0639"},
+        {station:"平成", time:"0643"},
+        {station:"南熊本", time:"0646"},
+        {station:"新水前寺", time:"0649"},
+        {station:"水前寺", time:"0654"},
+        {station:"東海学園前", time:"0657"},
+        {station:"竜田口", time:"0702"},
+        {station:"武蔵塚", time:"0711"},
+        {station:"光の森", time:"0715"},
+        {station:"三里木", time:"0718"},
+        {station:"原水", time:"0721"},
+        {station:"肥後大津", time:"0725"}
+       ],
+    },
+
+       "6323M":{
+            type:"VT/NT 共通4B",
+            images:[
+                "815_T_All.webp",
+                "817_0.webp"
+            ],
+        timetable:[
+        {station:"熊本", time:"0630"},
+        {station:"熊本操車場", time:"レ"},
+        {station:"西熊本", time:"0634"},
+        {station:"川尻信号場", time:"レ"},
+        {station:"川尻", time:"0637"},
+        {station:"富合", time:"0641"},
+        {station:"宇土", time:"0643"},
+        {station:"松橋", time:"0648"},
+        {station:"小川", time:"0653"},
+        {station:"有佐", time:"0658"},
+        {station:"千丁", time:"0702"},
+        {station:"新八代", time:"0704"},
+        {station:"八代", time:"0708"}
+       ],
+    },
+
+    //鹿児島本線　玉名・大牟田・博多・小倉方面
+
+    "320M":{
+        type:"NT/VT共通4B",
+        images:[
+            "815_T_All.webp",
+            "817_0.webp"
+        ],
+    timetable:[
+        {station:"熊本", time:"0527"},
+        {station:"上熊本", time:"0531"},
+        {station:"崇城大学前", time:"0533"},
+        {station:"西里", time:"0537"},
+        {station:"植木", time:"0541"},
+        {station:"田原坂", time:"0545"},
+        {station:"木葉", time:"0549"},
+        {station:"肥後伊倉", time:"0553"},
+        {station:"玉名", time:"0557"},
+        {station:"大野下", time:"0601"},
+        {station:"長洲", time:"0605"},
+        {station:"南荒尾", time:"0609"},
+        {station:"荒尾", time:"0612-0613"},
+        {station:"大牟田", time:"0617"}
+        ],
+    },
+
+    "358M":{
+        type:"UT3B",
+        images:[
+            "821_All.webp"
+        ],
+    timetable:[
+        {station:"熊本", time:"1558"},
+        {station:"上熊本", time:"1602"},
+        {station:"崇城大学前", time:"1605"},
+        {station:"西里", time:"1608"},
+        {station:"植木", time:"1602"},
+        {station:"田原坂", time:"1617"},
+        {station:"木葉", time:"1620"},
+        {station:"肥後伊倉", time:"1624"},
+        {station:"玉名", time:"1628"},
+        {station:"大野下", time:"1632"},
+        {station:"長洲", time:"1636"},
+        {station:"南荒尾", time:"1641"},
+        {station:"荒尾", time:"1644"},
+        {station:"大牟田", time:"1649"},
+        {station:"銀水", time:"1653"},
+        {station:"吉野", time:"1656"},
+        {station:"渡瀬", time:"1659"},
+        {station:"南瀬高", time:"1703"},
+        {station:"瀬高", time:"1706"},
+        {station:"筑後船小屋", time:"1709"},
+        {station:"羽犬塚", time:"1713"},
+        {station:"西牟田", time:"1717"},
+        {station:"荒木", time:"1720"},
+        {station:"久留米", time:"1725"},
+        {station:"肥前旭", time:"1729"},
+        {station:"鳥栖", time:"1733"},
+        {station:"", time:"↑358M"},
+        {station:"", time:"↓4152M"},
+        {station:"鳥栖", time:"1747"},
+        {station:"田代", time:"1749"},
+        {station:"弥生が丘", time:"1752"},
+        {station:"基山", time:"1758"},
+        {station:"けやき台", time:"1801"},
+        {station:"原田", time:"1804"},
+        {station:"天拝山", time:"1808"},
+        {station:"二日市", time:"1810"},
+        {station:"都府楼南", time:"レ"},
+        {station:"大宰府信号場", time:"レ"},
+        {station:"水城", time:"レ"},
+        {station:"大野城", time:"1815"},
+        {station:"春日", time:"レ"},
+        {station:"南福岡", time:"1820"},
+        {station:"笹原", time:"レ"},
+        {station:"竹下", time:"レ"},
+        {station:"竹下小", time:"レ"},
+        {station:"博多", time:"1829"},
+        {station:"吉塚", time:"1832"},
+        {station:"吉塚電留", time:"レ"},
+        {station:"箱崎", time:"レ"},
+        {station:"千早操車場", time:"レ"},
+        {station:"(JR貝塚)", time:"未開業"},
+        {station:"千早", time:"1837"},
+        {station:"香椎", time:"1840"},
+        {station:"九産大前", time:"レ"},
+        {station:"福工大前", time:"1844"},
+        {station:"新宮中央", time:"レ"},
+        {station:"ししぶ", time:"レ"},
+        {station:"古賀", time:"レ"},
+        {station:"千鳥", time:"レ"},
+        {station:"福間", time:"1857"},
+        {station:"東福間", time:"1901"},
+        {station:"東郷", time:"1904"},
+        {station:"赤間", time:"1908"},
+        {station:"教育大前", time:"1911"},
+        {station:"海老津", time:"1916"},
+        {station:"遠賀川", time:"1921"},
+        {station:"水巻", time:"1924"},
+        {station:"折尾", time:"1927"},
+        {station:"陣原", time:"1930"},
+        {station:"黒崎", time:"1933"},
+        {station:"八幡", time:"1937"},
+        {station:"スペースワールド", time:"1941"},
+        {station:"枝光", time:"1944"},
+        {station:"戸畑", time:"1947"},
+        {station:"九州工大前", time:"1949"},
+        {station:"浜小倉", time:"レ"},
+        {station:"西小倉", time:"1953"},
+        {station:"小倉", time:"1956"},
+        {station:"南小倉", time:"レ"},
+        {station:"北九州貨物ターミナル", time:"レ"},
+        {station:"門司", time:"2002"},
+        {station:"小森江", time:"2005"},
+        {station:"門司港", time:"2010"}
+        ],
+
+    },
+
+    "4152M":{
+        type:"UT+RM+RM 9B",
+        images:[
+            "821_All.webp",
+            "813_RM_Nomal.webp",
+            "813_RM_Hage.webp"
+        ],
+    timetable:[
+        {station:"久留米", time:"1728"},
+        {station:"肥前旭", time:"1733"},
+        {station:"鳥栖", time:"1740"},
+        {station:"", time:"821系を増結"},
+        {station:"鳥栖", time:"1747"},
+        {station:"田代", time:"1749"},
+        {station:"弥生が丘", time:"1752"},
+        {station:"基山", time:"1758"},
+        {station:"けやき台", time:"1801"},
+        {station:"原田", time:"1804"},
+        {station:"天拝山", time:"1808"},
+        {station:"二日市", time:"1810"},
+        {station:"都府楼南", time:"レ"},
+        {station:"大宰府信号場", time:"レ"},
+        {station:"水城", time:"レ"},
+        {station:"大野城", time:"1815"},
+        {station:"春日", time:"レ"},
+        {station:"南福岡", time:"1820"},
+        {station:"笹原", time:"レ"},
+        {station:"竹下", time:"レ"},
+        {station:"竹下小", time:"レ"},
+        {station:"博多", time:"1829"},
+        {station:"吉塚", time:"1832"},
+        {station:"吉塚電留", time:"レ"},
+        {station:"箱崎", time:"レ"},
+        {station:"千早操車場", time:"レ"},
+        {station:"(JR貝塚)", time:"未開業"},
+        {station:"千早", time:"1837"},
+        {station:"香椎", time:"1840"},
+        {station:"九産大前", time:"レ"},
+        {station:"福工大前", time:"1844"},
+        {station:"新宮中央", time:"レ"},
+        {station:"ししぶ", time:"レ"},
+        {station:"古賀", time:"レ"},
+        {station:"千鳥", time:"レ"},
+        {station:"福間", time:"1857"},
+        {station:"東福間", time:"1901"},
+        {station:"東郷", time:"1904"},
+        {station:"赤間", time:"1908"},
+        {station:"教育大前", time:"1911"},
+        {station:"海老津", time:"1916"},
+        {station:"遠賀川", time:"1921"},
+        {station:"水巻", time:"1924"},
+        {station:"折尾", time:"1927"},
+        {station:"陣原", time:"1930"},
+        {station:"黒崎", time:"1933"},
+        {station:"八幡", time:"1937"},
+        {station:"スペースワールド", time:"1941"},
+        {station:"枝光", time:"1944"},
+        {station:"戸畑", time:"1947"},
+        {station:"九州工大前", time:"1949"},
+        {station:"浜小倉", time:"レ"},
+        {station:"西小倉", time:"1953"},
+        {station:"小倉", time:"1956"},
+        {station:"南小倉", time:"レ"},
+        {station:"北九州貨物ターミナル", time:"レ"},
+        {station:"門司", time:"2002"},
+        {station:"小森江", time:"2005"},
+        {station:"門司港", time:"2010"}
+        ],
+
+    },
+    //三角線　宇土・住吉・網田方面　三角行
+
+    "521D":{
+        type:"キハ200　熊本2B",
+        images:[
+            "200_All.webp"
+        ],
+    timetable:[
+        {station:"熊本", time:"0617"},
+        {station:"熊本操車場", time:"レ"},
+        {station:"西熊本", time:"0622"},
+        {station:"川尻信号場", time:"レ"},
+        {station:"川尻", time:"0626"},
+        {station:"富合", time:"0630"},
+        {station:"宇土", time:"0634"},
+        {station:"緑川", time:"0639"},
+        {station:"住吉", time:"0644"},
+        {station:"肥後長浜", time:"0630"},
+        {station:"網田", time:"0655"},
+        {station:"赤瀬", time:"0701"},
+        {station:"石打ダム", time:"0704"},
+        {station:"波多浦", time:"0708"},
+        {station:"三角", time:"0712"}
+        ],
+    },
+
+    "527D":{
+        type:"キハ200 熊本2B",
+        images:[
+            "200_All.webp"
+        ],
+        timetable:[
+            {station:"熊本", time:"0858"},
+            {station:"熊本操車場", time:"レ"},
+            {station:"西熊本", time:"0903"},
+            {station:"川尻信号場", time:"レ"},
+            {station:"川尻", time:"0907"},
+            {station:"富合", time:"0911"},
+            {station:"宇土", time:"0915"},
+            {station:"緑川", time:"0921"},
+            {station:"住吉", time:"0930"},
+            {station:"肥後長浜", time:"0935"},
+            {station:"網田", time:"0940"},
+            {station:"赤瀬", time:"0945"},
+            {station:"石打ダム", time:"0948"},
+            {station:"波多浦", time:"0953"},
+            {station:"三角", time:"0956"},
+        ],
+    },
+
+    "531D":{
+        type:"キハ200 熊本2B",
+        images:[
+            "200_All.webp"
+        ],
+        timetable:[
+            {station:"熊本", time:"1130"},
+            {station:"熊本操車場", time:"レ"},
+            {station:"西熊本", time:"1135"},
+            {station:"川尻信号場", time:"レ"},
+            {station:"川尻", time:"1139"},
+            {station:"富合", time:"1143"},
+            {station:"宇土", time:"1147"},
+            {station:"緑川", time:"1153"},
+            {station:"住吉", time:"1157"},
+            {station:"肥後長浜", time:"1203"},
+            {station:"網田", time:"1210"},
+            {station:"赤瀬", time:"1215"},
+            {station:"石打ダム", time:"1218"},
+            {station:"波多浦", time:"1223"},
+            {station:"三角", time:"1227"}
+        ],
+    },
+    //三角線　網田・住吉・宇土方面　熊本行
+
+    "524D":{
+        type:"キハ200　熊本2B",
+        images:[
+            "200_All.webp"
+        ],
+        timetable:[
+            {station:"三角", time:"0719"},
+            {station:"波多浦", time:"0722"},
+            {station:"石打ダム", time:"0727"},
+            {station:"赤瀬", time:"0730"},
+            {station:"網田", time:"0735"},
+            {station:"肥後長浜", time:"0739"},
+            {station:"住吉", time:"0747"},
+            {station:"緑川", time:"0752"},
+            {station:"宇土", time:"0757"},
+            {station:"富合", time:"0801"},
+            {station:"川尻", time:"0806"},
+            {station:"川尻信号場", time:"レ"},
+            {station:"西熊本", time:"0810"},
+            {station:"熊本操車場", time:"レ"},
+            {station:"熊本", time:"0815"}
+        ],
+    },
+
+    "530D":{
+        type:"キハ200 2B",
+        images:[
+            "200_All.webp"
+        ],
+        timetable:[
+            {station:"三角", time:"1014"},
+            {station:"波多浦", time:"1017"},
+            {station:"石打ダム", time:"1022"},
+            {station:"赤瀬", time:"1025"},
+            {station:"網田", time:"1033"},
+            {station:"肥後長浜", time:"1037"},
+            {station:"住吉", time:"1043"},
+            {station:"緑川", time:"1048"},
+            {station:"宇土", time:"1054"},
+            {station:"富合", time:"1058"},
+            {station:"川尻", time:"1102"},
+            {station:"川尻信号場", time:"レ"},
+            {station:"西熊本", time:"1105"},
+            {station:"熊本操車場", time:"レ"},
+            {station:"熊本", time:"1110"}
+        ],
+    },
+
+    "534D":{
+        type:"キハ200 熊本2B",
+        images:[
+            "200_All.webp"
+        ],
+        timetable:[
+            {station:"三角", time:"1238"},
+            {station:"波多浦", time:"1241"},
+            {station:"石打ダム", time:"1246"},
+            {station:"赤瀬", time:"1249"},
+            {station:"網田", time:"1254"},
+            {station:"肥後長浜", time:"1258/1259"},
+            {station:"住吉", time:"1303/1306"},
+            {station:"緑川", time:"1311"},
+            {station:"宇土", time:"1316"},
+            {station:"富合", time:"1320"},
+            {station:"川尻", time:"1324/1325"},
+            {station:"川尻信号場", time:"レ"},
+            {station:"西熊本", time:"1327/1325"},
+            {station:"熊本操車場", time:"レ"},
+            {station:"熊本", time:"1333"}
+        ],
+    },
+
+    //豊肥本線　大分方面
+
+    "431D":{
+        type:"キハ200 熊本2B",
+        images:[
+            "200_All.webp"
+        ],
+        timetable:[
+            {station:"熊本", time:"1348"},
+            {station:"平成", time:"1352/1353"},
+            {station:"南熊本", time:"1354/1355"},
+            {station:"新水前寺", time:"1357/1358"},
+            {station:"水前寺", time:"1359/1400"},
+            {station:"東海学園前", time:"1403"},
+            {station:"竜田口", time:"1405/1406"},
+            {station:"武蔵塚", time:"1412"},
+            {station:"光の森", time:"1415/1516"},
+            {station:"三里木", time:"1418/1419"},
+            {station:"原水", time:"1423"},
+            {station:"肥後大津", time:"1428/1453"},
+            {station:"瀬田", time:"1459"},
+            {station:"立野", time:"1507/1511"},
+            {station:"赤水", time:"1527/1528"},
+            {station:"市ノ川", time:"1531/1532"},
+            {station:"内牧", time:"1531/1532"},
+            {station:"阿蘇", time:"1541/1552"},
+            {station:"いこいの村", time:"1555"},
+            {station:"宮地", time:"1558"}
+        ],
+    },
+};
+
+function searchTrain() {
+
+    const no = document.getElementById("trainNo").value.toUpperCase();
+    const result = document.getElementById("result");
+
+    if (!trains[no]) {
+        result.innerHTML = "<p>列車番号が見つかりません。</p>";
+        return;
+    }
+
+    const train = trains[no];
+
+    // 画像を並べる
+    let imageHtml = "";
+
+    train.images.forEach(function(image) {
+        imageHtml += `<img src="${image}" class="trainImage">`;
+    });
+
+    // HTMLを作成
+    let html = `
+        <h2>${no}</h2>
+
+        <div class="detail">
+
+            <div class="imageArea">
+                ${imageHtml}
+            </div>
+
+            <div class="info">
+                <h3>形式</h3>
+                <p>${train.type}</p>
+            </div>
+
+        </div>
+
+        <table>
+    `;
+
+    // 時刻表
+    train.timetable.forEach(function(stop) {
+        html += `
+            <tr>
+                <td>${stop.station}</td>
+                <td>${stop.time}</td>
+            </tr>
+        `;
+    });
+
+    html += "</table>";
+
+    result.innerHTML = html;
+
+}
+
+document.getElementById("trainNo").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        searchTrain();
+    }
+});
+
+function findNearbyStation() {
+
+    const gpsResult = document.getElementById("gpsResult");
+
+    if (!navigator.geolocation) {
+        gpsResult.innerHTML = "<p>このブラウザはGPSに対応していません。</p>";
+        return;
+    }
+
+    gpsResult.innerHTML = "<p>現在地を取得しています...</p>";
+
+    navigator.geolocation.getCurrentPosition(
+
+        function(position) {
+
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+
+            // 最寄り駅を探す
+            let nearestStation = null;
+            let nearestDistance = Infinity;
+
+            for (const stationName in stations) {
+
+                const station = stations[stationName];
+
+                const distance = calculateDistance(
+                    latitude,
+                    longitude,
+                    station.latitude,
+                    station.longitude
+                );
+
+                if (distance < nearestDistance) {
+                    nearestDistance = distance;
+                    nearestStation = stationName;
+                }
+            }
+
+            if (!nearestStation) {
+                gpsResult.innerHTML = "<p>駅が見つかりませんでした。</p>";
+                return;
+            }
+
+            // 最寄り駅の列車を取得
+            const stationData = stations[nearestStation];
+
+            const now = new Date();
+
+            const currentTime =
+                now.getHours() * 60 +
+                now.getMinutes();
+
+            // 現在時刻より後の列車だけ取得
+            const nextTrains = stationData.timetable
+                .filter(function(train) {
+
+                    const timeParts = train.time.split(":");
+
+                    const trainTime =
+                        Number(timeParts[0]) * 60 +
+                        Number(timeParts[1]);
+
+                    return trainTime >= currentTime;
+
+                })
+                .slice(0, 2);
+
+            // 表示
+            let html = `
+                <h3>📍 最寄り駅</h3>
+                <p>
+                    <strong>${nearestStation}</strong>
+                    （約${Math.round(nearestDistance)}m）
+                </p>
+            `;
+
+            if (nextTrains.length === 0) {
+
+                html += "<p>本日の次の列車はありません。</p>";
+
+            } else {
+
+                html += "<h3>🚃 次の列車</h3>";
+
+                nextTrains.forEach(function(train, index) {
+
+                    html += `
+                        <div class="nextTrain">
+                            <strong>${index + 1}本目</strong><br>
+                            列番：${train.trainNo}<br>
+                            発車時刻：${train.time}<br>
+                            行先：${train.destination}
+                        </div>
+                    `;
+
+                });
+
+            }
+
+            gpsResult.innerHTML = html;
+
+        },
+
+        function(error) {
+
+            gpsResult.innerHTML =
+                "<p>現在地を取得できませんでした。</p>";
+
+        }
+
+    );
+
+}
+
+function calculateDistance(lat1, lon1, lat2, lon2) {
+
+    const R = 6371000;
+
+    const rad = Math.PI / 180;
+
+    const dLat = (lat2 - lat1) * rad;
+    const dLon = (lon2 - lon1) * rad;
+
+    const a =
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(lat1 * rad) *
+        Math.cos(lat2 * rad) *
+        Math.sin(dLon / 2) *
+        Math.sin(dLon / 2);
+
+    const c = 2 * Math.atan2(
+        Math.sqrt(a),
+        Math.sqrt(1 - a)
+    );
+
+    return R * c;
+}
+
+const stations = {
+
+    "熊本駅": {
+
+        latitude: 32.7898,
+        longitude: 130.6887,
+
+        timetable: [
+//鹿児島本線　博多方面
+            {
+                trainNo: "320M",
+                time: "5:27",
+                destination: "大牟田"
+            },
+
+            {
+                trainNo: "324M",
+                time: "5:54",
+                destination: "大牟田"
+            },
+
+            {
+                trainNo: "5320M",
+                time: "6:04",
+                destination: "大牟田"
+            },
+
+            {
+                trainNo: "326M",
+                time: "6:54",
+                destination: "銀水"
+            },
+
+            {
+                trainNo: "5322M",
+                time: "7:11",
+                destination: "長洲"
+            },
+
+            {
+                trainNo: "5324M",
+                time: "7:29",
+                destination: "鳥栖"
+            },
+
+            {
+                trainNo: "328M",
+                time: "7:49",
+                destination: "植木"
+            },
+
+            {
+                trainNo: "5326M",
+                time: "8:01",
+                destination: "長洲"
+            },
+
+            {
+                trainNo: "5328M",
+                time: "8:19",
+                destination: "大牟田"
+            },
+
+            {
+                trainNo: "332M",
+                time: "8:30",
+                destination: "鳥栖"
+            },
+
+            {
+                trainNo: "4320M",
+                time: "8:45",
+                destination: "鳥栖(区快)"
+            },
+
+            {
+                trainNo: "334M",
+                time: "9:10",
+                destination: "大牟田"
+            },
+
+            {
+                trainNo: "358M",
+                time: "15:58",
+                destination: "門司港"
+            },
+
+            {
+                trainNo: "5368M",
+                time: "23:36",
+                destination: "大牟田"
+            },
+
+
+            {
+                trainNo: "1236M",
+                time: "10:25",
+                destination: "八代"
+            },
+
+            {
+                trainNo: "1238M",
+                time: "10:40",
+                destination: "宇土"
+            }
+
+        ]
+
+    },
+
+    "西熊本駅": {
+
+        latitude: 32.7700,
+        longitude: 130.6830,
+
+        timetable: [
+
+            {
+                trainNo: "1234M",
+                time: "10:15",
+                destination: "八代"
+            },
+
+            {
+                trainNo: "1236M",
+                time: "23:30",
+                whattrain:"普通ワンマン",
+                destination: "八代"
+            }
+
+        ]
+
+    },
+
+    "川尻駅": {
+
+        latitude: 32.7420,
+        longitude: 130.6820,
+
+        timetable: [
+
+            {
+                trainNo: "1234M",
+                time: "10:20",
+                destination: "八代"
+            },
+
+            {
+                trainNo: "1236M",
+                time: "10:35",
+                destination: "八代"
+            }
+
+        ]
+
+    }
+
+};
+
+// ==============================
+// 運行情報
+// ==============================
+
+// normal = 平常運転
+// delay = 遅延
+// stop = 運転見合わせ
+
+const operationInfo = {
+    status: "stop",
+
+    text: "地震の影響により、宇土駅～八代駅間で運転を見合わせています。",
+
+    update: "最終更新：9月2日 17:23"
+};
+
+
+function showOperationInfo() {
+
+    const box = document.getElementById("operationInfo");
+    const title = document.getElementById("operationTitle");
+    const text = document.getElementById("operationText");
+    const update = document.getElementById("operationUpdate");
+
+    // いったん色のクラスを削除
+    box.classList.remove("normal", "delay", "stop");
+
+
+    // 平常運転
+    if (operationInfo.status === "normal") {
+
+        box.classList.add("normal");
+
+        title.textContent = "🟢 平常運転";
+
+    }
+
+
+    // 遅延
+    else if (operationInfo.status === "delay") {
+
+        box.classList.add("delay");
+
+        title.textContent = "🟡 遅延";
+
+    }
+
+
+    // 運転見合わせ
+    else if (operationInfo.status === "stop") {
+
+        box.classList.add("stop");
+
+        title.textContent = "🔴 運転見合わせ";
+
+    }
+
+
+    text.textContent = operationInfo.text;
+
+    update.textContent = operationInfo.update;
+}
+
+
+// ページを開いたときに表示
+showOperationInfo();
+
+window.onload = function() {
+
+    document.getElementById("trainNo").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            searchTrain();
+        }
+    });
+
+    document.getElementById("password").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            login();
+        }
+    });
+
+};
+
+function login() {
+
+    const id = document.getElementById("userId").value;
+    const pass = document.getElementById("password").value;
+
+    if (users[id] === pass) {
+
+        document.getElementById("login").style.display = "none";
+        document.getElementById("main").style.display = "block";
+
+        document.getElementById("trainNo").focus();
+
+    } else {
+
+        alert("IDまたはパスワードが違います。");
+
+    }
+}
+
+const users = {
+    // 予備　定期的に変更することをおすすめします。
+    "admin": "8165",
+    "admin": "8146",
+    "admin": "4099",
+    "admin": "4096",
+    "admin": "8174",
+    "admin": "3140",
+    "admin": "8158",
+    "admin": "1485",
+    "admin": "7681",
+    //設定されたユーザーIDとパスワードをここに追加してください。
+    "hikaru": "4099",
+    "eita": "4096",
+    "yuki31KIHA": "314047Kei",
+    "815817821": "815817821",
+};
+
